@@ -2,7 +2,7 @@
 
 Software-Engineering-2022
 
-Celsius-Fahrenheit conversion:
+Fahrenheit-Celsius conversion:
 Example:
-Input: 1
-Output: 33.8
+Input: 33.8
+Output: 1
