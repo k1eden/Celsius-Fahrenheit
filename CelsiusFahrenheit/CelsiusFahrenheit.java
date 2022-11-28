@@ -15,9 +15,17 @@ public class CelsiusFahrenheit {
    }
 
     public static void main(String[] args) {
-        double temp;
-        Scanner console = new Scanner(System.in);
-        temp = console.nextDouble();
+        double temp = 0;
+        boolean is_ok = false;
+        while (!is_ok) {
+        try {
+            Scanner console = new Scanner(System.in);
+            temp = console.nextDouble();
+            is_ok = true;
+        } catch (java.util.InputMismatchException e) {
+            System.out.println("Incorrect input. Please use digits and comma");
+            }
+        }
         CelsiusFahrenheit test = new CelsiusFahrenheit(temp);
         System.out.print(test.converter());
     }
