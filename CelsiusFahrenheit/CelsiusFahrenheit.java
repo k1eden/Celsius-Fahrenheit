@@ -27,6 +27,6 @@ public class CelsiusFahrenheit {
             }
         }
         CelsiusFahrenheit test = new CelsiusFahrenheit(temp);
-        System.out.print(test.converter());
+        System.out.format("%.2f", test.converter());
     }
  }

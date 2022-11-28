@@ -27,6 +27,6 @@ public class FahrenheitCelsius {
                 }
             }
             FahrenheitCelsius test = new FahrenheitCelsius(temp);
-            System.out.print(test.converter());
+            System.out.format("%.2f", test.converter());
         }
     }
