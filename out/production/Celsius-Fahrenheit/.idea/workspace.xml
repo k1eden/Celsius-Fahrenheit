@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83fe6e52-01d8-4612-93cb-1b718d24ef2f" name="Changes" comment="1st feature done!" />
+    <list default="true" id="83fe6e52-01d8-4612-93cb-1b718d24ef2f" name="Changes" comment="2nd feature done!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +18,7 @@
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/1-Celsius-Fahrenheit" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,7 +89,7 @@
       <list>
         <item itemvalue="Application.FahrenheitCelsius" />
         <item itemvalue="Application.CelsiusFahrenheit" />
-        <item itemvalue="Application.CelsiusFahrenheit" />
+        <item itemvalue="Application.FahrenheitCelsius" />
         <item itemvalue="Application.CelsiusFahrenheit" />
         <item itemvalue="Application.CelsiusFahrenheit" />
       </list>
@@ -108,7 +108,7 @@
       <workItem from="1669417689210" duration="1023000" />
       <workItem from="1669420023544" duration="1668000" />
       <workItem from="1669588348724" duration="1891000" />
-      <workItem from="1669590266771" duration="775000" />
+      <workItem from="1669590266771" duration="2263000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669414871304</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669590858807</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2st feature done!">
+      <created>1669591148398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669591148398</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +176,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature/1-Celsius-Fahrenheit" />
+                        <option value="origin/dev" />
                       </list>
                     </value>
                   </entry>
@@ -234,6 +241,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="1st feature done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st feature done!" />
+    <MESSAGE value="2nd feature done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd feature done!" />
   </component>
 </project>
