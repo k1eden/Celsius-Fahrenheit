@@ -1,41 +1,28 @@
-import java.util.Scanner;
+
 
 public class Main {
     public static void main(String[] args) {
-        double temp = 0;
-        boolean is_ok = false;
+        if (args.length == 2) {
+          if (!args[1].matches("^(- ?)?[0-9]+(.[0-9]+)?$")) {
+            System.out.println("Please, enter correct digit. You can use only digits, dot and '-' sign");
 
-        System.out.println("Type 1 for C -> F converting or 2 for F->C");
-        Scanner console1 = new Scanner(System.in);
-        temp = console1.nextInt();
-
-        if (temp == 1) {
-            while (!is_ok) {
-                try {
-                    Scanner console = new Scanner(System.in);
-                    temp = console.nextDouble();
-                    is_ok = true;
-                } catch (java.util.InputMismatchException e) {
-                    System.out.println("Incorrect input. Please use digits and comma");
+        }  else {
+            switch (args[0]) {
+                case ("-fh") -> {
+                    FahrenheitCelsius fc = new FahrenheitCelsius(Double.parseDouble(args[1]));
+                    System.out.format("%.2f", fc.converter());
                 }
-            }
-            CelsiusFahrenheit test = new CelsiusFahrenheit(temp);
-            System.out.format("%.2f", test.converter());
-        } else if (temp ==  2) {
-            temp = 0;
-            while (!is_ok) {
-                try {
-                    Scanner console = new Scanner(System.in);
-                    temp = console.nextDouble();
-                    is_ok = true;
-                } catch (java.util.InputMismatchException e) {
-                    System.out.println("Incorrect input. Please use digits and comma");
+                case ("-cl") -> {
+                    CelsiusFahrenheit cf = new CelsiusFahrenheit(Double.parseDouble(args[1]));
+                    System.out.format("%.2f", cf.converter());
                 }
+                default -> System.out.println("Please, enter correct mode. (-cl - From Celsius, -fh - from Farenheit)");
             }
-            FahrenheitCelsius test = new FahrenheitCelsius(temp);
-            System.out.format("%.2f", test.converter());
-
+          }
         }
+        else System.out.println("Use arguments! The first is direction of converting (-cl - From Celsius, -fh - from Farenheit)" +
+                " and the second is temperature");
     }
-
 }
+
+
