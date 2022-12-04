@@ -33,14 +33,14 @@ Go to working directory:
 Build image:
 > docker build -t app .
 
-![3.png](resources%2F1.png)
+![3.png](resources%2F3.png)
 
 Run application:
 > docker run app (-cl/-fh) (any double digit)
 
 ![1.png](resources%2F1.png)
 
-![2.png](resources%2F1.png)
+![2.png](resources%2F2.png)
 
-![4.png](resources%2F1.png)
+![4.png](resources%2F4.png)
   
