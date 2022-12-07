@@ -10,7 +10,7 @@ jobs:
   gradle:
     strategy:
       matrix:
-        os: [ windows-2022, macos-latest, ubuntu-18.04 ]
+        os: [ ubuntu-latest, windows-2022, macos-latest ]
     runs-on: ${{ matrix.os }}
 
     steps:
