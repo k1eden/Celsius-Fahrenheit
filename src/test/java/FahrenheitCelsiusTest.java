@@ -4,10 +4,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FahrenheitCelsiusTest {
 
-    FahrenheitCelsius test = new FahrenheitCelsius(77);
+    FahrenheitCelsius test = new FahrenheitCelsius(78);
     @Test
     void converter() {
-        double result = 25;
+        double result = 25.56;
         assertEquals(test.converter(), result);
 
         test.fahrenheitTemp = 32;
