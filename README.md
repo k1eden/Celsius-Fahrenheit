@@ -1,3 +1,6 @@
+![Build Status](https://github.com/k1eden/Celsius-Fahrenheit/actions/workflows/main.yml/badge.svg?branch=dev) (develop)
+![Build Status](https://github.com/k1eden/Celsius-Fahrenheit/actions/workflows/main.yml/badge.svg?branch=main) (main)
+
 # Celsius-Fahrenheit
 
 Software-Engineering-2022
