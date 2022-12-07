@@ -8,7 +8,7 @@ class CelsiusFahrenheitTest {
 
     @Test
     void converter() {
-        double result = 103;
+        double result = 104;
         assertEquals(test.converter(), result);
 
         test.celsiusTemp = 0;
