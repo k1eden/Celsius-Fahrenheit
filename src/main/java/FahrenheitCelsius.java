@@ -1,6 +1,7 @@
 
 public class FahrenheitCelsius {
     double fahrenheitTemp;
+    Rounder round = new Rounder();
 
     public FahrenheitCelsius (double temp) {
         this.fahrenheitTemp = temp;
@@ -8,7 +9,7 @@ public class FahrenheitCelsius {
     }
 
     public double converter () {
-        return (fahrenheitTemp - 32) / 1.8;
+        return round.roundOff((fahrenheitTemp - 32) / 1.8, 2);
     }
 
 }
