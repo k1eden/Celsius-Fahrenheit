@@ -6,8 +6,8 @@ WORKDIR /home/gradle/src
 
 RUN gradle build
 
-FROM adoptopenjdk/openjdk16
+FROM openjdk:18.0-slim
 
-COPY build/libs/Celsius-Fahrenheit-1.0-SNAPSHOT.jar /app.jar
+COPY --from=build /home/gradle/src/build/libs/Celsius-Fahrenheit-1.0-SNAPSHOT.jar /app.jar
 
 ENTRYPOINT ["java", "-jar", "/app.jar"]
